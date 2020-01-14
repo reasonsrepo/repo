@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.reasonsrepo" name="[COLOR blue]Reasons[/COLOR] [COLOR yellow]Repository[/COLOR]" version="1.0.1" provider-name="Reasons">
+    <extension point="xbmc.addon.repository" name="[COLOR blue]Reasons[/COLOR] [COLOR yellow]Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/reasonsrepo/repository.reasonsrepo/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/reasonsrepo/repository.reasonsrepo/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/reasonsrepo/repository.reasonsrepo/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Official Reasons Repository</summary>
+        <description>All new kodi addons</description>
+        <source>https://github.com/reasonsrepo/repository.reasonsrepo/blob/master/README.md</source>
+        <platform>all</platform>
+    </extension>
+</addon>
